@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mi Página Django</title>
+    <title>Mi Página </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="container mt-5">
     <h1>¡Bienvenido a mi sitio!</h1>
-    <p>Este es un ejemplo con HTML y base de datos.</p>
-    <!-- Mostraremos datos de la BD aquí más adelante -->
+    <div class="mt-4">
+        <a href="{% url 'registro_estudiante' %}" class="btn btn-primary">Registrar Estudiante</a>
+        <a href="{% url 'registro_docente' %}" class="btn btn-secondary">Registrar Docente</a>
+    </div>
 </body>
 </html>
