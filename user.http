@@ -1,0 +1,15 @@
+
+@api = http://localhost:8000/users/register/
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "nombre": "Ana",
+    "apellido": "García",
+    "email": "ana.garcia@example.com",
+    "password": "contraseña123",
+    "tipo_usuario": "estudiante",
+    "numero_identificacion": "987654321"
+}

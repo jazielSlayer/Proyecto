@@ -1,0 +1,11 @@
+
+@api = http://localhost:8000/categorias-equipos/create/
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "nombre": "Hardware",
+    "descripcion": "Equipos de hardware como osciloscopios y multímetros"
+}

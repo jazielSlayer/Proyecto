@@ -1,0 +1,12 @@
+
+@api = http://localhost:8000/laboratorios/create/
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "nombre": "Laboratorio de Física",
+    "ubicacion": "Edificio A, Piso 2",
+    "capacidad": 30
+}
